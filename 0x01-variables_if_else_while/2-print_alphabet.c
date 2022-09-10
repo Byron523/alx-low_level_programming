@@ -3,7 +3,7 @@
 /**
 * main - prints the lowercase alphabet letters
 *
-* Return -returns zero for success
+* Return: -returns zero for success
 */
 
 int main(void)
