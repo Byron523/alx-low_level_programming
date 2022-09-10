@@ -9,8 +9,10 @@
 int main(void)
 {
 	int a;
+	char alph = "abcdefghijklmnopqrstuvwxyz";
 
-	for (a = 97; a < 123; a++)
-		putchar("%c", a);
+	for (a = 0; a < 26; a++)
+		putchar(alph[a]);
+	putchar('\n');
 	return (0);
 }
