@@ -8,7 +8,6 @@
 
 int main(void)
 {
-	char low[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
 	for (i = 122; i > 96; i--)
