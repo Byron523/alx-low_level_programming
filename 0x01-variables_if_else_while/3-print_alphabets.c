@@ -16,7 +16,7 @@ int main(void)
 	{
 		putchar(low[a]);
 	}
-	for (a = 26; a < 26; a++)
+	for (a = 0; a < 26; a++)
 	{
 		putchar(upp[a]);
 	}
