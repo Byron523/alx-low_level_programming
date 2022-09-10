@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
-*
 * main - checking the last digit
 *
 * Return: zero fro success
