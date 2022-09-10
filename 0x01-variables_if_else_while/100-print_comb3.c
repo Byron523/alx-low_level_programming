@@ -12,9 +12,9 @@ int main(void)
 
 	for (i = 48; i < 58; i++)
 	{
-		putchar(i);
 		for (j = 49; j < 58; j++)
 		{
+			putchar(i);
 			putchar(j);
 			putchar(',');
 			putchar(' ');
