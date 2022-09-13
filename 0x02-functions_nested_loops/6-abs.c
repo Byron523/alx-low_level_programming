@@ -2,7 +2,7 @@
 
 /**
 * _abs - remving negative sign
-* @i: input value
+* @j: input value
 * Return: zero for success
 */
 
@@ -16,7 +16,7 @@ int _abs(int j)
 	}
 	else if (j < 0)
 	{
-		for (; i < j; i--)
+		for (i = 0; i < j; i++)
 		{
 			count++;
 		}
