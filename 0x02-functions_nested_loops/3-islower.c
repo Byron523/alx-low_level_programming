@@ -3,6 +3,7 @@
 /**
 * _islower - return lower chaarcters
 *
+* @c: input variable and value as int
 * Return: O if upper
 */
 
