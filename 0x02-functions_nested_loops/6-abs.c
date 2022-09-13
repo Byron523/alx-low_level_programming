@@ -20,6 +20,6 @@ int _abs(int j)
 		{
 			count++;
 		}
-		return (count);
 	}
+	return (count);
 }
