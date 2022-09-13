@@ -5,7 +5,7 @@
 * Return: nothing
 */
 
-void times_table(voi)
+void times_table(void)
 {
 	int i, j, m;
 
@@ -15,7 +15,7 @@ void times_table(voi)
 		{
 			m = i * j;
 			_putchar(m);
-			_putcahr(44);
+			_putchar(44);
 			_putchar(' ');
 		}
 		_putchar('\n');
