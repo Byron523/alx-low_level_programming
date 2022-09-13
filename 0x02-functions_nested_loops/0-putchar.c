@@ -12,7 +12,6 @@ int _puchar(void)
 {
 	char c[] = "_putchar";
 
-	printf("%c", c);
-	printf('\n');
+	printf("%s\n", c);
 	return (0);
 }
