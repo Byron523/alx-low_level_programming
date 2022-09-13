@@ -16,9 +16,9 @@ int _abs(int j)
 	}
 	else if (j < 0)
 	{
-		for (i = 0; i < j; i++)
+		for (i = 0; i > j; j++)
 		{
-			count++;
+			count = count + 1;
 		}
 	}
 	return (count);
