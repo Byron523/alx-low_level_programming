@@ -1,0 +1,1 @@
+This folder contains basic programs in C where we take a look at how we debug code looking for errors and what is causing our program not to work as expected. We make use of few functions written in C
