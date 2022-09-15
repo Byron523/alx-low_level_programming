@@ -1,14 +1,12 @@
 #include <stdio.h>
-
 /**
 * main - prints 100 numbers
 * Return: 0
 */
 int main(void)
 {
-	int i;
+	int i = 1;
 
-	i = 1;
 	printf("%d", i);	
 	for (i = 2; i <= 100; i++)
 	{
