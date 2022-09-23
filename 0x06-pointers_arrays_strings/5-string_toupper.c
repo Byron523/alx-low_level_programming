@@ -17,7 +17,6 @@ char *string_toupper(char *n)
 			*(n + 1) = (*(n + 1) - 32);
 		}
 		i++;
-	}
-	
+	}	
 	return (n);
 }
