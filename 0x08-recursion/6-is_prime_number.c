@@ -29,12 +29,12 @@ int is_prime_number(int n)
 
 int prime(int a, int b)
 {
-	if (a % c == 0)
+	if (a % b == 0)
 	{
 		if (a == b)
 			return (1);
 		else
 			return (0);
 	}
-	return (0 + is_prime(a, b + 1));
+	return (0 + prime(a, b + 1));
 }
