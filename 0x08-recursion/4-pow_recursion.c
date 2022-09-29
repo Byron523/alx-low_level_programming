@@ -5,7 +5,7 @@
 * a number using a recursion
 * @x: input number
 * @y: power
-* Return: an int 
+* Return: an int
 */
 
 int _pow_recursion(int x, int y)
