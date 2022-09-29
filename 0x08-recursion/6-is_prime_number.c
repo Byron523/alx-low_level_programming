@@ -8,10 +8,33 @@
 
 int is_prime_number(int n)
 {
+	if (n == 0)
+		return (1);
+	if (n < 0)
+		return (0);
 	if (n == 1)
-		return (1);
-	else if (n == n)
-		return (1);
-	else if ((n %  is_prime_number(n -1) < 0))
-		 return (0);
+	{
+		return (0);
+	}
+	return (prime(n, 2));
+}
+
+
+/**
+* prime - checks is n is prime
+* @a: input
+* @b: loop number
+* Return: ! is true or otherwise 0
+*/
+
+int prime(int a, int b)
+{
+	if (a % c == 0)
+	{
+		if (a == b)
+			return (1);
+		else
+			return (0);
+	}
+	return (0 + is_prime(a, b + 1));
 }
