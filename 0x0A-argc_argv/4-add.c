@@ -23,6 +23,6 @@ int main(int argc, char *argv[])
 			j = j + atoi(argv[i]);
 		}
 	}
-	printf("\n");
+	printf("%d\n", j);
 	return (0);
 }
