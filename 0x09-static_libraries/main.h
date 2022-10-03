@@ -22,4 +22,4 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *acccept);
 char *_strstr(char *haystack, char *needle);
 
-#endif /* main.h */
+#endif
