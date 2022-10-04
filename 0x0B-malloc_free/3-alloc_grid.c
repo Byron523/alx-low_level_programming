@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "main.h"
+0;276;0c#include "main.h"
 /**
 * alloc_grid - allocates a grid
 * @width: input withd
@@ -26,7 +26,7 @@ int **alloc_grid(int width, int height)
 		m[i] = malloc(width * sizeof(int));
 		if (m[i] == NULL)
 		{
-			for (i--; i >= 0; i--)
+			for (; i >= 0; i--)
 			     free(m[i]);
 
 			free(m);
