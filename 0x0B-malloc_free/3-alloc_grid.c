@@ -1,5 +1,5 @@
 #include <stdlib.h>
-0;276;0c#include "main.h"
+#include "main.h"
 /**
 * alloc_grid - allocates a grid
 * @width: input withd
