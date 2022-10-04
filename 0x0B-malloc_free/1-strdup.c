@@ -3,7 +3,7 @@
 /**
 * _strdup - duplicates a string and rint it
 * @str: string input
-* Retrun: pointer to a char
+* Return: pointer to a char
 */
 char *_strdup(char *str)
 {
@@ -16,7 +16,7 @@ char *_strdup(char *str)
 	for (i = 0; str[i] != '\0'; i++)
 		;
 
-	dest = malloc(sizeof(char) * i);
+	dest = malloc(sizeof(char) * i + 1);
 	if (dest == NULL)
 		return (NULL);
 
