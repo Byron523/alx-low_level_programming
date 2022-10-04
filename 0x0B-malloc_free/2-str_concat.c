@@ -4,13 +4,12 @@
 * str_concat - joins two given strings
 * @s1: input string one
 * @s2: input string 2
-* Return: a pinter to a char 
+* Return: a pinter to a char
 */
 char *str_concat(char *s1, char *s2)
 {
 	char *dest;
-	int i, j, k, m;
-	
+	int i, j, k, m;	
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
