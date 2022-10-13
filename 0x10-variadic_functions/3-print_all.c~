@@ -1,0 +1,31 @@
+#include "variadic_functions.h"
+#include <stdarg.h>
+#include <stdio.h>
+/**
+* print_all - prints anything given
+* @format: input format
+* Return: nothing
+*/
+void print_all(const char * const format, ...)
+{
+	va_list ptr;
+	unsigned int i, j, k;
+	char *s;
+	const char type[] ="ceifs";
+
+	va_start(ptr, format);
+	while (format && format[i])
+	{
+		j = 0;
+		while (type[j])
+		{
+			if (format[i] == type[j] && k)
+			{
+				printf(", ");
+				break;
+			} j++;
+		}
+		switch (format[i])
+		{
+			case 'c':
+				prints("
