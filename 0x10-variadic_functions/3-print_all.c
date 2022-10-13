@@ -11,7 +11,7 @@ void print_all(const char * const format, ...)
 	va_list ptr;
 	unsigned int i = 0, j, k = 0;
 	char *s;
-	const char type[] ="cifs";
+	const char type[] = "cifs";
 
 	va_start(ptr, format);
 	while (format && format[i])
@@ -38,16 +38,14 @@ void print_all(const char * const format, ...)
 				break;
 			case 's':
 				s = va_arg(ptr, char *), k = 1;
-				if (s)
-					printf("%s", s);
-				else
+				if (!s)
 				{
 					printf("(nil)");
 					break;
 				}
+				printf("%s", s);
+				break;
 		} i++;
 	}
-
-	printf("\n");
-	va_end(ptr);
+	printf("\n"),	va_end(ptr);
 }
