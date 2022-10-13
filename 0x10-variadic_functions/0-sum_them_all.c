@@ -1,6 +1,5 @@
 #include "variadic_functions.h"
-#include <stdarg.h"
-
+#include <stdarg.h>
 /**
 * sum_them_all - adds numbers
 * @n: numbers of arguments
