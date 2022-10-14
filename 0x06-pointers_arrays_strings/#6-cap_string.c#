@@ -1,0 +1,9 @@
+#include "main.h"
+
+/**
+* cap_string - puts all strings toupper
+* @n: character input
+* Return: a character
+*/
+
+char *cap_stri
