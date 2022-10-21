@@ -1,14 +1,14 @@
 #include "lists.h"
 
 /**
- * add_node_end - insert at the end of the node
- * @head: head of the linked list
- * @str: input str
- * Return: return of a new element
+ * add_node_end - add a node to the edn
+ * @head: head of a linked list
+ * @str: string to be ended
+ * Return: address of head
  */
-list *add_node_end(list_t **head, const char *str)
+list_t *add_node_end(list_t **head, const char *str)
 {
-	list_t *new_node, *end_node;
+	list_t *new_node, *end_done;
 	size_t n;
 
 	new_node = malloc(sizeof(list_t));
@@ -16,7 +16,7 @@ list *add_node_end(list_t **head, const char *str)
 		return (NULL);
 
 	new_node->str = strdup(str);
-
+	
 	for (n = 0; str[n]; n++)
 		;
 
