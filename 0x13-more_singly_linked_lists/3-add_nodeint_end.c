@@ -9,6 +9,7 @@
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 	listint_t *new, *newnode;
+	(void)newnode;
 
 	new = malloc(sizeof(listint_t));
 	if (new == NULL)
