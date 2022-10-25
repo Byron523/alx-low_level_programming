@@ -9,9 +9,11 @@
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
 	listint_t *prev, *nxt;
+	int i;
 
 	prev = *head;
-	while (prev && prev->n != index)
+	i = index;
+	while (prev && prev->n != i)
 	{
 		nxt = prev;
 		prev = prev->next;
