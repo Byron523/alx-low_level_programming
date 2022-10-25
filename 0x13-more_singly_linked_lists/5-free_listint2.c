@@ -7,26 +7,14 @@
  */
 void free_listint2(listint_t **head)
 {
-	listint_t *new;
+	listint_t *new, *tmp;
 
-	if (*head == NULL)
+	if (*head != NULL)
 	{
-		free(head);
-		return;
-	}
-	else
-	{
-		new = malloc(sizeof(listint_t));
-		if (new == NULL)
+		tmp = *head;
+		while ((tmp = new) != NULL)
 		{
-			free(new);
-			return;
-		}
-
-		while (*head != NULL)
-		{
-			new = *head;
-			*head = new->next;
+			tmp = tmp->next;
 			free(new);
 		}
 		*head = NULL;
