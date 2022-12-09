@@ -6,7 +6,7 @@
 * @n: element value
 * Return: address of the new address
 */
-dlistint_t *add_dnodeint_end(dlistint_end **head, const int n)
+dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 	dlistint_t *h, *new;
 
